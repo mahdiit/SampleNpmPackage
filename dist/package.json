@@ -10,6 +10,6 @@
     ],
     "author": "Mahdi Yousefi",
     "license": "MIT",
-    "repository": "",
+    "repository": "https://github.com/mahdiit/SampleNpmPackage",
     "dependencies": {}
 }
