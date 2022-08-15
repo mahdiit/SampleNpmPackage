@@ -1,0 +1,15 @@
+{
+    "name": "sample-repository-pattern",
+    "version": "0.0.1",
+    "description": "my first sample repository",
+    "main": "repository.js",
+    "types": "./index.d.ts",
+    "keywords": [
+        "sample",
+        "personal"
+    ],
+    "author": "Mahdi Yousefi",
+    "license": "MIT",
+    "repository": "",
+    "dependencies": {}
+}
