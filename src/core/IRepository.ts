@@ -2,7 +2,7 @@ import Dexie from "dexie";
 import { Filter } from "./Repository";
 
 
-export interface IRepository<IEntity, Key> {
+export default interface IRepository<IEntity, Key> {
     Add(item: IEntity): Promise<Key>;
     Remove(id: Key): void;
     Update(item: IEntity, id: Key): void;

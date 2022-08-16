@@ -1,5 +1,5 @@
-import Dexie, { Collection, IndexableType } from "dexie"
-import { IRepository } from "./IRepository";
+import Dexie from "dexie"
+import  IRepository from "./IRepository";
 
 export type Filter<T> = (item: T) => boolean;
 

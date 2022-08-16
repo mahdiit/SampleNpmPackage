@@ -1,5 +1,3 @@
-import Dexie from "dexie"
-
 export function Fields<T>() {
     return new Proxy(
         {},
@@ -13,7 +11,7 @@ export function Fields<T>() {
         };
 };
 
-export class DbEntity {
+export default class DbEntity {
     public GetFields(): any {
         return Fields<this>();
     }

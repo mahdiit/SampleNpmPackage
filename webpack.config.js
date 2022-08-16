@@ -4,13 +4,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const config = {
   target: 'web',
   entry: {
-    index: './src/index.ts',
+    index: './src/sample-repository-pattern.ts',
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
-    filename: 'repository.js',
+    path: path.resolve(__dirname, './dist'),    
     library: 'Repository',
-    libraryTarget: 'umd',
+    libraryTarget: 'amd',
     globalObject: 'this',
     umdNamedDefine: true,
   },

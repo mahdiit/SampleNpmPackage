@@ -1,5 +1,5 @@
 import Dexie from "dexie";
-import { DbEntity } from "../core/DbEntity";
+import DbEntity from "../core/DbEntity";
 import Repository from "../core/repository";
 
 export class IDbContact extends DbEntity {
