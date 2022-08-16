@@ -1,8 +1,10 @@
 # 🚀 Welcome to Dexie Repository Sample
 
+usage repository: https://github.com/mahdiit/sample-repository-usage
+
 sample usage, define repository:
 
-```
+```typescript
 //AppDb.ts
 
 import Dexie from "dexie";
@@ -33,7 +35,7 @@ export class AppDb extends Dexie {
 
 all method has promise. using async/wait
 
-```
+```typescript
 var clientDb = new myDb.AppDb();  
 var allContact = await clientDb.Contact.GetAll();
 ```
