@@ -38,3 +38,9 @@ var clientDb = new myDb.AppDb();
 var allContact = await clientDb.Contact.GetAll();
 ```
 
+moudle build using:
+```
+"module": "ES2020",
+"target": "ES2020",
+"moduleResolution": "node"
+```

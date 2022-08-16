@@ -1,15 +1,19 @@
 {
     "name": "sample-repository-pattern",
-    "version": "0.0.1",
-    "description": "my first sample repository",
+    "version": "0.0.3",
+    "description": "Sample repository using A Minimalistic Wrapper for IndexedDB, Dexie.js",
     "main": "repository.js",
     "types": "./index.d.ts",
     "keywords": [
-        "sample",
-        "personal"
+        "Dexie",
+        "Repository",
+        "IndexedDB",
+        "TypeScript"
     ],
     "author": "Mahdi Yousefi",
     "license": "MIT",
     "repository": "https://github.com/mahdiit/SampleNpmPackage",
-    "dependencies": {}
+    "dependencies": { 
+        "dexie": "^3.2.2"
+     }
 }

@@ -20,6 +20,7 @@
     "serve": "webpack serve"
   },
   "dependencies": {
-    "clean-webpack-plugin": "^4.0.0"
+    "clean-webpack-plugin": "^4.0.0",
+    "dexie": "^3.2.2"
   }
 }

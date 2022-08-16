@@ -1,9 +1,7 @@
-import Entity from "./core/entity";
-import LocalRepository from "./data/local.repository";
-import MapRepository from "./data/map.repository";
+import { DbEntity } from "./core/DbEntity";
+import Repository from "./core/repository";
 
 export {
-    Entity,
-    LocalRepository,
-    MapRepository
+    DbEntity,
+    Repository
 }
