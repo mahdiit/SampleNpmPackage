@@ -2,7 +2,7 @@
 
 sample usage, define repository:
 
-```
+```typeScript
 //AppDb.ts
 
 import Dexie from "dexie";
@@ -33,14 +33,16 @@ export class AppDb extends Dexie {
 
 all method has promise. using async/wait
 
-```
+```typeScript
 var clientDb = new myDb.AppDb();  
 var allContact = await clientDb.Contact.GetAll();
 ```
 
 moudle build using:
-```
+```json
+{
 "module": "ES2020",
 "target": "ES2020",
 "moduleResolution": "node"
+}
 ```
