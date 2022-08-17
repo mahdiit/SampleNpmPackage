@@ -1,6 +1,6 @@
 {
     "name": "sample-repository-pattern",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "Sample repository using A Minimalistic Wrapper for IndexedDB, Dexie.js",    
     "types": "./sample-repository-pattern.d.ts",
     "keywords": [

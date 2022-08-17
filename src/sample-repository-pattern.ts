@@ -1,5 +1,5 @@
 import DbEntity from "./core/DbEntity";
-import Repository from "./core/repository";
+import Repository from "./core/Repository";
 
 export {
     DbEntity,
